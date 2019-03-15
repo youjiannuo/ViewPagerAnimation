@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ant_baidu">
+        <item>url:http://www.baidu.com</item>
+        <item>http:get</item>
+    </string-array>
+
+</resources>

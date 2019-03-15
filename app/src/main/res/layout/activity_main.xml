@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout style="@style/match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:layerType="software"
+        android:orientation="vertical">
+
+        <com.yn.framework.view.YNViewPager
+            android:id="@+id/viewPage1"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layerType="none">
+
+        </com.yn.framework.view.YNViewPager>
+
+    </LinearLayout>
+</FrameLayout>
